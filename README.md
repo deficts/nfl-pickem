@@ -1,4 +1,4 @@
-# nflpickem
+# Vue Pick'em!
 
 ## Project setup
 ```
