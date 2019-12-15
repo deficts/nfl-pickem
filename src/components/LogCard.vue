@@ -5,7 +5,7 @@
       <v-card class="elevation-12">
         <v-form>
           <v-container>
-            <h1>Login</h1>
+            <h1>Log In</h1>
             <v-row>
               <v-col>
                 <v-text-field
