@@ -1,5 +1,5 @@
 <template>
-  <v-container class="home">
+  <v-container fluid fill-height>
     <Dashboard/>
   </v-container>
 </template>
