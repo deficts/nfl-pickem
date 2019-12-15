@@ -3,11 +3,11 @@
   <v-layout align-center justify-center>
     <v-flex xs12 sm8 md4>
       <v-card class="elevation-12">
-        <v-img class="white--text align-end" src="@/assets/football.jpg">
-          <v-card-title>Bienvenido a VuePick'em!</v-card-title>
+        <v-img id="imagen" :aspect-ratio="16/9" opacity="0.8" class="white--text align-end" src="@/assets/football.jpg">
+          <v-card-title id="texto">Bienvenido a VuePick'em!</v-card-title>
         </v-img>
         <v-card-text class="text--primary">
-          <div>Aquí podras hacer cada semana la eleccion de tus equpipos favoritos de la NFL</div>
+          <div>Aquí podras hacer cada semana la eleccion de tus equipos favoritos de la NFL</div>
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
@@ -32,3 +32,6 @@ export default {
   }),
 };
 </script>
+
+<style media="screen">
+</style>
